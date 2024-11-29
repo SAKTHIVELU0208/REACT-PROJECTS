@@ -1,0 +1,25 @@
+{
+  "meetings": [
+    {
+      "id": "b36a",
+      "title": "meet 2 ",
+      "date": "2024-10-23",
+      "time": "11:03",
+      "description": "imp meet"
+    },
+    {
+      "id": "5011",
+      "title": "meeting ",
+      "date": "2024-10-17",
+      "time": "16:23",
+      "description": "very imp"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    }
+  ]
+}

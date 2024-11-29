@@ -1,0 +1,16 @@
+.meeting-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meeting-details h2 {
+    margin-bottom: 20px;
+  }
+  
+  .meeting-details p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  

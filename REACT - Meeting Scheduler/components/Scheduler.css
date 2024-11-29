@@ -1,0 +1,71 @@
+/* src/components/Scheduler.css */
+.scheduler {
+    display: flex;
+    flex-direction: column; /* Arrange elements in a column */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Gradient background */
+    color: #333;
+    padding-top: 20px; /* Add padding at the top */
+  }
+  
+  .scheduler h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem; /* Reduce bottom margin */
+    color: #555;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the heading */
+  }
+  
+  .scheduler-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px; /* Limit the maximum width of the form */
+    margin-top: 20px; /* Add space between the header and form */
+    text-align: center;
+  }
+  
+  .scheduler-form input[type="text"],
+  .scheduler-form input[type="date"],
+  .scheduler-form input[type="time"] {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .scheduler-form input[type="text"]::placeholder,
+  .scheduler-form input[type="date"]::placeholder,
+  .scheduler-form input[type="time"]::placeholder {
+    color: #aaa;
+  }
+  
+  .scheduler-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .scheduler-form button:hover {
+    background-color: #ff4757;
+    transform: scale(1.05);
+  }
+  
+  .scheduler-form button:active {
+    transform: scale(0.95);
+  }
+  
